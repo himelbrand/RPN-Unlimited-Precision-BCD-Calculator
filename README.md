@@ -49,53 +49,54 @@ The 'r' and 'l' operators, work as follows. They both need two operands, the top
 
 An example of user input and program output appears below. Comments (which will not appear in input or output) are preceded by ";". The calculator prompt to the user is "calc: "
 
->>calc: 9     ; user inputs a number
 
->>calc: 1      ; user inputs another number
+\>>calc: 9     ; user inputs a number
 
->>calc: d      ; user enters "duplicate" operator
+\>>calc: 1      ; user inputs another number
 
->>calc: p      ; user enters pop-and-print-operator
+\>>calc: d      ; user enters "duplicate" operator
 
->>1
+\>>calc: p      ; user enters pop-and-print-operator
 
->>calc: +      ; user enters "addition" operator, 10 is in top of (and is the sole element in) stack right after
+\>>1
 
->>calc: d
+\>>calc: +      ; user enters "addition" operator, 10 is in top of (and is the sole element in) stack right after
 
->>calc: p
+\>>calc: d
 
->>10 
+\>>calc: p
 
->>calc: 23      ; user enters another number 23
+\>>10 
 
->>calc: +
+\>>calc: 23      ; user enters another number 23
 
->>calc: d
+\>>calc: +
 
->>calc: p
+\>>calc: d
 
->>33            ; the sum 
+\>>calc: p
 
->>calc: +
+\>>33            ; the sum 
 
->>Error: Insufficient Number of Arguments on Stack
+\>> calc: +
 
->>calc: 24      ; user inputs a number
+\>>Error: Insufficient Number of Arguments on Stack
 
->>calc: 2     ; user inputs a number
+\>>calc: 24      ; user inputs a number
 
->>calc: r      ; user enters shift right operator
+\>>calc: 2     ; user inputs a number
 
->>calc: p 
+\>>calc: r      ; user enters shift right operator
 
->>6      ; 24 / (2^2) = 6 
+\>>calc: p 
 
->>calc: p
+\>>6      ; 24 / (2^2) = 6 
 
->>33
+\>>calc: p
 
->>calc: q      ; Quit calculator
+\>>33
+
+\>>calc: q      ; Quit calculator
 
 11      ; Number of operations performed
 
